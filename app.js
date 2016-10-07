@@ -1,21 +1,10 @@
 $("button").click(function(){
+	var person = {};
+	person.first_name = $("#first_name").val();
+	person.city = $("#city").val();
+	person.last_name = $("#last_name").val();
 
-	var first_name = $("#first_name").val();
-	var city = $("#city").val();
-	var last_name = $("#last_name").val();
-	console.log(first_name);
-
-	var gerard = {
-
-		first_name : first_name,
-		city : city,
-		last_name : last_name
-
-	}
-	console.log(gerard);
-	$("span").html(gerard.first_name +" "+last_name)
-
-	
-
+	console.log(person);
+	$("span").html(person..first_name +" "+person.last_name)
 });
 
